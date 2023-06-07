@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 
 type LazyImageProps = {
-    src: string,
+    src: string
 };
 type ImageNativeProps =  React.ImgHTMLAttributes<HTMLImageElement>;
 
