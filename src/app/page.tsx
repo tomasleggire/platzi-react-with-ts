@@ -15,6 +15,7 @@ export default function Home() {
       const id: string = generateId();
       const url: string = `https:\/\/randomfox.ca\/images\/${myRandom()}.jpg`;
       setImages([...images, {id, url}]);
+      window.plausible("add_fox");
     };
 
   return (
